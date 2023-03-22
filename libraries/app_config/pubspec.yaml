@@ -1,0 +1,25 @@
+name: app_config
+description: The configuration container responsible for app launch and dependency injection.
+version: 0.0.1+1
+publish_to: none
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Local Packages / Modules
+  # Note: path is relative to this yaml file, so may need to reference parent directory with ../
+  # library_name:
+  #   path: libraries/{library dir} # If THIS yaml is root level
+
+  # Including root project package only to access generated firebase_options.dart file.
+  flutter_automaton:
+    path: ../../../flutter_automaton
+  presentation:
+    path: ../../libraries/presentation
+
+dev_dependencies:
+  test: '>=1.15.0 <2.0.0'
