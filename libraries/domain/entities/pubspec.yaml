@@ -1,0 +1,13 @@
+name: entities
+description: Dart package which manages the entities domain.
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  uuid: ^3.0.7
+  equatable: ^2.0.5
+
+dev_dependencies:
+  test: '>=1.15.0 <2.0.0'
