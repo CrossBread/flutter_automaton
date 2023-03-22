@@ -1,0 +1,13 @@
+name: presentation
+description: The presentation layer of Clean Architecture.
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  test: '>=1.15.0 <2.0.0'
