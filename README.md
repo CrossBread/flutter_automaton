@@ -89,6 +89,7 @@ The following features are planned:
  - [ ] What to do when you see 'has been given unbounded constraints' in Flutter
  - [ ] What to do when you see 'A RenderFlex overflowed by N pixels on the right' in Flutter
  - [ ] How to Design UIs that scale to different screen sizes
+ - [ ] When 'shrinkwrap: true' is not the right answer
  - [ ] A simple Flame game running on the Automaton's face
  - [ ] Device sensor data
  - [ ] Unit Testing
@@ -102,3 +103,5 @@ The following features are planned:
  - [ ] Font Awesome
  - [ ] Loading Assets
  - [ ] Loading Assets from a different library
+ - [ ] Flutter Keys
+ - [ ] Hero animations for guiding user attention through a transition
