@@ -40,6 +40,26 @@ experience and distill it into an opinionated sample app that will:
 If you come across something I can improve or want to suggest a cleaner approach, or maybe something
 you'd like to see added in the future, please feel free to open an issue or submit a pull request.
 
+## Dependency Analysis
+### [Lakos Dependency Graph](https://pub.dev/packages/lakos)
+#### Install [GraphViz](https://graphviz.org/download/)
+Windows: `winget install graphviz`
+
+(Add GraphViz **bin** dir to your PATH environment variable)
+
+#### Activate Lakos
+`dart pub global activate lakos`
+
+#### Generate the Dependency Diagrams
+```bash
+lakos --ignore test/** . | dot -Tsvg -o doc/images/dependencies.svg
+lakos --ignore test/** --metrics --node-metrics . | dot -Tsvg -o doc/images/dependencies_metrics.svg
+```
+
+![Dependency Diagram generated with Lakos](/doc/images/dependencies.svg "Project Dependencies")
+
+![Dependency Diagram generated with Lakos](/doc/images/dependencies_metrics.svg "Project Dependencies with Metrics")
+
 ## Roadmap
 This clean architecture sample app is a work in progress and will be updated to provide a concrete example of a real world app.  
 
