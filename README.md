@@ -56,6 +56,7 @@ lakos --ignore test/** . | dot -Tsvg -o doc/images/dependencies.svg
 lakos --ignore test/** --metrics --node-metrics . | dot -Tsvg -o doc/images/dependencies_metrics.svg
 ```
 
+#### Results
 ![Dependency Diagram generated with Lakos](/doc/images/dependencies.svg "Project Dependencies")
 
 ![Dependency Diagram generated with Lakos](/doc/images/dependencies_metrics.svg "Project Dependencies with Metrics")
