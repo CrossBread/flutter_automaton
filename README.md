@@ -100,8 +100,9 @@ The following features are planned:
  - [ ] Linter Rules and VeryGoodAnalysis Rules
  - [ ] Capturing feedback from users
  - [ ] Google Fonts
- - [ ] Font Awesome
+ - [ ] Font Awesome Icons
  - [ ] Loading Assets
  - [ ] Loading Assets from a different library
  - [ ] Flutter Keys
  - [ ] Hero animations for guiding user attention through a transition
+ - [ ] Material Design 3 Material States
